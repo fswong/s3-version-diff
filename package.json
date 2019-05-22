@@ -1,0 +1,52 @@
+{
+  "name": "s3-version-diff",
+  "version": "1.0.0",
+  "description": "Reader for S3 versions",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fswong/s3-version-diff.git"
+  },
+  "author": "fswong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fswong/s3-version-diff/issues"
+  },
+  "homepage": "https://github.com/fswong/s3-version-diff#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "aws-sdk": "^2.455.0",
+    "eslint": "^5.15.3",
+    "typescript": "^3.3.4000",
+    "typescript-eslint-parser": "^22.0.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.12",
+    "jasmine": "^3.3.1",
+    "ts-node": "^8.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
